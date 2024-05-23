@@ -23,7 +23,7 @@ def load_kg(repository: str) -> None:
     Loads initial knowledge graph into `repository_name`.
     Returns `None` if successfull and raises a ValueError otherwise.
     """
-    data_path = '/data/data.rdf'
+    data_path = '/data/userKG_inferred.rdf'
     with open(data_path, 'rb') as rdf_file:
         statements = rdf_file.read()
     result = requests.post(
