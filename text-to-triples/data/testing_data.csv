@@ -1,0 +1,1424 @@
+sentence_id,token_id,sentence,token,spo_label
+1,1,P : I have been facing some discomfort in my feet recently .,P,other
+1,2,P : I have been facing some discomfort in my feet recently .,:,other
+1,3,P : I have been facing some discomfort in my feet recently .,I,Subject
+1,4,P : I have been facing some discomfort in my feet recently .,have,Predicate
+1,5,P : I have been facing some discomfort in my feet recently .,been,Predicate
+1,6,P : I have been facing some discomfort in my feet recently .,facing,Predicate
+1,7,P : I have been facing some discomfort in my feet recently .,some,Object
+1,8,P : I have been facing some discomfort in my feet recently .,discomfort,Object
+1,9,P : I have been facing some discomfort in my feet recently .,in,Object
+1,10,P : I have been facing some discomfort in my feet recently .,my,Object
+1,11,P : I have been facing some discomfort in my feet recently .,feet,Object
+1,12,P : I have been facing some discomfort in my feet recently .,recently,Object
+1,13,P : I have been facing some discomfort in my feet recently .,.,other
+2,1,Is this connected to my diabetes ?,Is,Predicate
+2,2,Is this connected to my diabetes ?,this,Subject
+2,3,Is this connected to my diabetes ?,connected,Predicate
+2,4,Is this connected to my diabetes ?,to,Predicate
+2,5,Is this connected to my diabetes ?,my,Object
+2,6,Is this connected to my diabetes ?,diabetes,Object
+2,7,Is this connected to my diabetes ?,?,other
+3,1,"A : It could be , Abdullah .",A,other
+3,2,"A : It could be , Abdullah .",:,other
+3,3,"A : It could be , Abdullah .",It,other
+3,4,"A : It could be , Abdullah .",could,other
+3,5,"A : It could be , Abdullah .",be,other
+3,6,"A : It could be , Abdullah .",",",other
+3,7,"A : It could be , Abdullah .",Abdullah,other
+3,8,"A : It could be , Abdullah .",.,other
+4,1,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",Diabetes,Subject
+4,2,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",can,Predicate
+4,3,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",cause,Predicate
+4,4,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",nerve,Object
+4,5,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",damage,Object
+4,6,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",known,Object
+4,7,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",as,Object
+4,8,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",peripheral,Object
+4,9,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",neuropathy,Object
+4,10,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",",",other
+4,11,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",which,other
+4,12,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",often,other
+4,13,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",affects,other
+4,14,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",the,other
+4,15,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",feet,other
+4,16,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",.,other
+5,1,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",Diabetes,other
+5,2,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",can,other
+5,3,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",cause,other
+5,4,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",nerve,other
+5,5,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",damage,other
+5,6,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",known,other
+5,7,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",as,other
+5,8,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",peripheral,Subject
+5,9,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",neuropathy,Subject
+5,10,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",",",other
+5,11,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",which,other
+5,12,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",often,Predicate
+5,13,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",affects,Predicate
+5,14,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",the,Object
+5,15,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",feet,Object
+5,16,"Diabetes can cause nerve damage known as peripheral neuropathy , which often affects the feet .",.,other
+6,1,"This can lead to a sense of discomfort , numbness or pain .",This,Subject
+6,2,"This can lead to a sense of discomfort , numbness or pain .",can,Predicate
+6,3,"This can lead to a sense of discomfort , numbness or pain .",lead,Predicate
+6,4,"This can lead to a sense of discomfort , numbness or pain .",to,Predicate
+6,5,"This can lead to a sense of discomfort , numbness or pain .",a,Object
+6,6,"This can lead to a sense of discomfort , numbness or pain .",sense,Object
+6,7,"This can lead to a sense of discomfort , numbness or pain .",of,Object
+6,8,"This can lead to a sense of discomfort , numbness or pain .",discomfort,Object
+6,9,"This can lead to a sense of discomfort , numbness or pain .",",",other
+6,10,"This can lead to a sense of discomfort , numbness or pain .",numbness,Object
+6,11,"This can lead to a sense of discomfort , numbness or pain .",or,Object
+6,12,"This can lead to a sense of discomfort , numbness or pain .",pain,Object
+6,13,"This can lead to a sense of discomfort , numbness or pain .",.,other
+7,1,Do you notice any specific pattern ?,Do,other
+7,2,Do you notice any specific pattern ?,you,other
+7,3,Do you notice any specific pattern ?,notice,other
+7,4,Do you notice any specific pattern ?,any,other
+7,5,Do you notice any specific pattern ?,specific,other
+7,6,Do you notice any specific pattern ?,pattern,other
+7,7,Do you notice any specific pattern ?,?,other
+8,1,P : I mostly feel it at night .,P,other
+8,2,P : I mostly feel it at night .,:,other
+8,3,P : I mostly feel it at night .,I,Subject
+8,4,P : I mostly feel it at night .,mostly,Predicate
+8,5,P : I mostly feel it at night .,feel,Predicate
+8,6,P : I mostly feel it at night .,it,Object
+8,7,P : I mostly feel it at night .,at,Object
+8,8,P : I mostly feel it at night .,night,Object
+8,9,P : I mostly feel it at night .,.,other
+9,1,"Also , my feet get quite cold sometimes .",Also,other
+9,2,"Also , my feet get quite cold sometimes .",",",other
+9,3,"Also , my feet get quite cold sometimes .",my,Subject
+9,4,"Also , my feet get quite cold sometimes .",feet,Subject
+9,5,"Also , my feet get quite cold sometimes .",get,Predicate
+9,6,"Also , my feet get quite cold sometimes .",quite,Object
+9,7,"Also , my feet get quite cold sometimes .",cold,Object
+9,8,"Also , my feet get quite cold sometimes .",sometimes,Object
+9,9,"Also , my feet get quite cold sometimes .",.,other
+10,1,A : That is a common symptom of peripheral neuropathy .,A,other
+10,2,A : That is a common symptom of peripheral neuropathy .,:,other
+10,3,A : That is a common symptom of peripheral neuropathy .,That,Subject
+10,4,A : That is a common symptom of peripheral neuropathy .,is,Predicate
+10,5,A : That is a common symptom of peripheral neuropathy .,a,Object
+10,6,A : That is a common symptom of peripheral neuropathy .,common,Object
+10,7,A : That is a common symptom of peripheral neuropathy .,symptom,Object
+10,8,A : That is a common symptom of peripheral neuropathy .,of,Object
+10,9,A : That is a common symptom of peripheral neuropathy .,peripheral,Object
+10,10,A : That is a common symptom of peripheral neuropathy .,neuropathy,Object
+10,11,A : That is a common symptom of peripheral neuropathy .,.,other
+11,1,You should bring this up with your doctor as soon as possible .,You,Subject
+11,2,You should bring this up with your doctor as soon as possible .,should,Predicate
+11,3,You should bring this up with your doctor as soon as possible .,bring,Predicate
+11,4,You should bring this up with your doctor as soon as possible .,this,Predicate
+11,5,You should bring this up with your doctor as soon as possible .,up,Predicate
+11,6,You should bring this up with your doctor as soon as possible .,with,Predicate
+11,7,You should bring this up with your doctor as soon as possible .,your,Object
+11,8,You should bring this up with your doctor as soon as possible .,doctor,Object
+11,9,You should bring this up with your doctor as soon as possible .,as,Object
+11,10,You should bring this up with your doctor as soon as possible .,soon,Object
+11,11,You should bring this up with your doctor as soon as possible .,as,Object
+11,12,You should bring this up with your doctor as soon as possible .,possible,Object
+11,13,You should bring this up with your doctor as soon as possible .,.,other
+12,1,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",In,other
+12,2,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",the,other
+12,3,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",meantime,other
+12,4,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",",",other
+12,5,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",make,Predicate
+12,6,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",sure,Predicate
+12,7,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",you,Subject
+12,8,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",check,Predicate
+12,9,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",your,Object
+12,10,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",feet,Object
+12,11,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",daily,Object
+12,12,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",for,Object
+12,13,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",any,Object
+12,14,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",cuts,Object
+12,15,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",or,Object
+12,16,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",injuries,Object
+12,17,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",that,Object
+12,18,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",you,Object
+12,19,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",may,Object
+12,20,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",not,Object
+12,21,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",feel,Object
+12,22,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",due,Object
+12,23,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",to,Object
+12,24,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",the,Object
+12,25,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",numbness,Object
+12,26,"In the meantime , make sure you check your feet daily for any cuts or injuries that you may not feel due to the numbness .",.,other
+13,1,P : I see .,P,other
+13,2,P : I see .,:,other
+13,3,P : I see .,I,other
+13,4,P : I see .,see,other
+13,5,P : I see .,.,other
+14,1,Can this condition worsen with time ?,Can,other
+14,2,Can this condition worsen with time ?,this,other
+14,3,Can this condition worsen with time ?,condition,other
+14,4,Can this condition worsen with time ?,worsen,Predicate
+14,5,Can this condition worsen with time ?,with,other
+14,6,Can this condition worsen with time ?,time,other
+14,7,Can this condition worsen with time ?,?,other
+15,1,"A : If not managed properly , it might .",A,other
+15,2,"A : If not managed properly , it might .",:,other
+15,3,"A : If not managed properly , it might .",If,Object
+15,4,"A : If not managed properly , it might .",not,Object
+15,5,"A : If not managed properly , it might .",managed,Object
+15,6,"A : If not managed properly , it might .",properly,Object
+15,7,"A : If not managed properly , it might .",",",other
+15,8,"A : If not managed properly , it might .",it,Subject
+15,9,"A : If not managed properly , it might .",might,Predicate
+15,10,"A : If not managed properly , it might .",.,other
+16,1,That is why early detection and appropriate treatment are essential .,That,other
+16,2,That is why early detection and appropriate treatment are essential .,is,other
+16,3,That is why early detection and appropriate treatment are essential .,why,other
+16,4,That is why early detection and appropriate treatment are essential .,early,Subject
+16,5,That is why early detection and appropriate treatment are essential .,detection,Subject
+16,6,That is why early detection and appropriate treatment are essential .,and,other
+16,7,That is why early detection and appropriate treatment are essential .,appropriate,other
+16,8,That is why early detection and appropriate treatment are essential .,treatment,other
+16,9,That is why early detection and appropriate treatment are essential .,are,Predicate
+16,10,That is why early detection and appropriate treatment are essential .,essential,Object
+16,11,That is why early detection and appropriate treatment are essential .,.,other
+17,1,That is why early detection and appropriate treatment are essential .,That,other
+17,2,That is why early detection and appropriate treatment are essential .,is,other
+17,3,That is why early detection and appropriate treatment are essential .,why,other
+17,4,That is why early detection and appropriate treatment are essential .,early,other
+17,5,That is why early detection and appropriate treatment are essential .,detection,other
+17,6,That is why early detection and appropriate treatment are essential .,and,other
+17,7,That is why early detection and appropriate treatment are essential .,appropriate,Subject
+17,8,That is why early detection and appropriate treatment are essential .,treatment,Subject
+17,9,That is why early detection and appropriate treatment are essential .,are,Predicate
+17,10,That is why early detection and appropriate treatment are essential .,essential,Object
+17,11,That is why early detection and appropriate treatment are essential .,.,other
+18,1,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,It,other
+18,2,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,is,Predicate
+18,3,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,also,other
+18,4,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,important,Object
+18,5,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,to,Subject
+18,6,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,maintain,Subject
+18,7,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,good,Subject
+18,8,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,blood,Subject
+18,9,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,sugar,Subject
+18,10,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,control,Subject
+18,11,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,to,Subject
+18,12,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,prevent,Subject
+18,13,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,or,Subject
+18,14,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,slow,Subject
+18,15,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,the,Subject
+18,16,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,progression,Subject
+18,17,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,of,Subject
+18,18,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,neuropathy,Subject
+18,19,It is also important to maintain good blood sugar control to prevent or slow the progression of neuropathy .,.,other
+19,1,P : I will definitely consult my doctor about this .,P,other
+19,2,P : I will definitely consult my doctor about this .,:,other
+19,3,P : I will definitely consult my doctor about this .,I,Subject
+19,4,P : I will definitely consult my doctor about this .,will,Predicate
+19,5,P : I will definitely consult my doctor about this .,definitely,Predicate
+19,6,P : I will definitely consult my doctor about this .,consult,Predicate
+19,7,P : I will definitely consult my doctor about this .,my,Object
+19,8,P : I will definitely consult my doctor about this .,doctor,Object
+19,9,P : I will definitely consult my doctor about this .,about,Object
+19,10,P : I will definitely consult my doctor about this .,this,Object
+19,11,P : I will definitely consult my doctor about this .,.,other
+20,1,Is there anything else I can do to alleviate the discomfort ?,Is,other
+20,2,Is there anything else I can do to alleviate the discomfort ?,there,other
+20,3,Is there anything else I can do to alleviate the discomfort ?,anything,other
+20,4,Is there anything else I can do to alleviate the discomfort ?,else,other
+20,5,Is there anything else I can do to alleviate the discomfort ?,I,other
+20,6,Is there anything else I can do to alleviate the discomfort ?,can,other
+20,7,Is there anything else I can do to alleviate the discomfort ?,do,other
+20,8,Is there anything else I can do to alleviate the discomfort ?,to,other
+20,9,Is there anything else I can do to alleviate the discomfort ?,alleviate,other
+20,10,Is there anything else I can do to alleviate the discomfort ?,the,other
+20,11,Is there anything else I can do to alleviate the discomfort ?,discomfort,other
+20,12,Is there anything else I can do to alleviate the discomfort ?,?,other
+21,1,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,A,other
+21,2,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,:,other
+21,3,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,Regular,Subject
+21,4,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,exercise,Subject
+21,5,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,can,Predicate
+21,6,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,improve,Predicate
+21,7,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,blood,Object
+21,8,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,flow,Object
+21,9,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,to,Object
+21,10,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,your,Object
+21,11,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,feet,Object
+21,12,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,and,other
+21,13,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,relieve,other
+21,14,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,symptoms,other
+21,15,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,.,other
+22,1,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,A,other
+22,2,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,:,other
+22,3,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,Regular,Subject
+22,4,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,exercise,Subject
+22,5,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,can,Predicate
+22,6,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,improve,other
+22,7,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,blood,other
+22,8,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,flow,other
+22,9,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,to,other
+22,10,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,your,other
+22,11,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,feet,other
+22,12,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,and,other
+22,13,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,relieve,Predicate
+22,14,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,symptoms,Object
+22,15,A : Regular exercise can improve blood flow to your feet and relieve symptoms .,.,other
+23,1,"Also , wearing warmer socks might help with the coldness .",Also,other
+23,2,"Also , wearing warmer socks might help with the coldness .",",",other
+23,3,"Also , wearing warmer socks might help with the coldness .",wearing,Subject
+23,4,"Also , wearing warmer socks might help with the coldness .",warmer,Subject
+23,5,"Also , wearing warmer socks might help with the coldness .",socks,Subject
+23,6,"Also , wearing warmer socks might help with the coldness .",might,Predicate
+23,7,"Also , wearing warmer socks might help with the coldness .",help,Predicate
+23,8,"Also , wearing warmer socks might help with the coldness .",with,Predicate
+23,9,"Also , wearing warmer socks might help with the coldness .",the,Object
+23,10,"Also , wearing warmer socks might help with the coldness .",coldness,Object
+23,11,"Also , wearing warmer socks might help with the coldness .",.,other
+24,1,Ensure that your shoes fit well to avoid potential injury .,Ensure,Predicate
+24,2,Ensure that your shoes fit well to avoid potential injury .,that,Object
+24,3,Ensure that your shoes fit well to avoid potential injury .,your,Object
+24,4,Ensure that your shoes fit well to avoid potential injury .,shoes,Object
+24,5,Ensure that your shoes fit well to avoid potential injury .,fit,Object
+24,6,Ensure that your shoes fit well to avoid potential injury .,well,Object
+24,7,Ensure that your shoes fit well to avoid potential injury .,to,Object
+24,8,Ensure that your shoes fit well to avoid potential injury .,avoid,Object
+24,9,Ensure that your shoes fit well to avoid potential injury .,potential,Object
+24,10,Ensure that your shoes fit well to avoid potential injury .,injury,Object
+24,11,Ensure that your shoes fit well to avoid potential injury .,.,other
+25,1,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",A,other
+25,2,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",:,other
+25,3,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",Abdullah,other
+25,4,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",",",other
+25,5,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",I,other
+25,6,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",know,other
+25,7,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",maintaining,Subject
+25,8,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",a,Subject
+25,9,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",balanced,Subject
+25,10,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",diet,Subject
+25,11,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",is,Predicate
+25,12,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",important,Predicate
+25,13,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",for,Predicate
+25,14,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",managing,Predicate
+25,15,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",your,Object
+25,16,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",diabetes,Object
+25,17,"A : Abdullah , I know maintaining a balanced diet is important for managing your diabetes .",.,other
+26,1,Are you incorporating enough fiber-rich foods in your meals ?,Are,other
+26,2,Are you incorporating enough fiber-rich foods in your meals ?,you,other
+26,3,Are you incorporating enough fiber-rich foods in your meals ?,incorporating,other
+26,4,Are you incorporating enough fiber-rich foods in your meals ?,enough,other
+26,5,Are you incorporating enough fiber-rich foods in your meals ?,fiber-rich,other
+26,6,Are you incorporating enough fiber-rich foods in your meals ?,foods,other
+26,7,Are you incorporating enough fiber-rich foods in your meals ?,in,other
+26,8,Are you incorporating enough fiber-rich foods in your meals ?,your,other
+26,9,Are you incorporating enough fiber-rich foods in your meals ?,meals,other
+26,10,Are you incorporating enough fiber-rich foods in your meals ?,?,other
+27,1,"P : I try to , but it is not always easy with traditional Moroccan dishes .",P,other
+27,2,"P : I try to , but it is not always easy with traditional Moroccan dishes .",:,other
+27,3,"P : I try to , but it is not always easy with traditional Moroccan dishes .",I,Subject
+27,4,"P : I try to , but it is not always easy with traditional Moroccan dishes .",try,Predicate
+27,5,"P : I try to , but it is not always easy with traditional Moroccan dishes .",to,Predicate
+27,6,"P : I try to , but it is not always easy with traditional Moroccan dishes .",",",other
+27,7,"P : I try to , but it is not always easy with traditional Moroccan dishes .",but,other
+27,8,"P : I try to , but it is not always easy with traditional Moroccan dishes .",it,Subject
+27,9,"P : I try to , but it is not always easy with traditional Moroccan dishes .",is,Predicate
+27,10,"P : I try to , but it is not always easy with traditional Moroccan dishes .",not,Predicate
+27,11,"P : I try to , but it is not always easy with traditional Moroccan dishes .",always,Predicate
+27,12,"P : I try to , but it is not always easy with traditional Moroccan dishes .",easy,Predicate
+27,13,"P : I try to , but it is not always easy with traditional Moroccan dishes .",with,Predicate
+27,14,"P : I try to , but it is not always easy with traditional Moroccan dishes .",traditional,Object
+27,15,"P : I try to , but it is not always easy with traditional Moroccan dishes .",Moroccan,Object
+27,16,"P : I try to , but it is not always easy with traditional Moroccan dishes .",dishes,Object
+27,17,"P : I try to , but it is not always easy with traditional Moroccan dishes .",.,other
+28,1,How can I increase my fiber intake without straying too far from our usual meals ?,How,other
+28,2,How can I increase my fiber intake without straying too far from our usual meals ?,can,other
+28,3,How can I increase my fiber intake without straying too far from our usual meals ?,I,other
+28,4,How can I increase my fiber intake without straying too far from our usual meals ?,increase,other
+28,5,How can I increase my fiber intake without straying too far from our usual meals ?,my,other
+28,6,How can I increase my fiber intake without straying too far from our usual meals ?,fiber,other
+28,7,How can I increase my fiber intake without straying too far from our usual meals ?,intake,other
+28,8,How can I increase my fiber intake without straying too far from our usual meals ?,without,other
+28,9,How can I increase my fiber intake without straying too far from our usual meals ?,straying,other
+28,10,How can I increase my fiber intake without straying too far from our usual meals ?,too,other
+28,11,How can I increase my fiber intake without straying too far from our usual meals ?,far,other
+28,12,How can I increase my fiber intake without straying too far from our usual meals ?,from,other
+28,13,How can I increase my fiber intake without straying too far from our usual meals ?,our,other
+28,14,How can I increase my fiber intake without straying too far from our usual meals ?,usual,other
+28,15,How can I increase my fiber intake without straying too far from our usual meals ?,meals,other
+28,16,How can I increase my fiber intake without straying too far from our usual meals ?,?,other
+29,1,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",A,other
+29,2,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",:,other
+29,3,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",You,Subject
+29,4,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",could,Predicate
+29,5,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",consider,Predicate
+29,6,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",including,Predicate
+29,7,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",more,Object
+29,8,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",legumes,Object
+29,9,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",",",other
+29,10,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",like,Object
+29,11,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",lentils,Object
+29,12,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",and,Object
+29,13,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",chickpeas,Object
+29,14,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",",",other
+29,15,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",which,other
+29,16,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",are,other
+29,17,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",common,other
+29,18,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",in,other
+29,19,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",Moroccan,other
+29,20,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",cuisine,other
+29,21,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",and,other
+29,22,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",are,other
+29,23,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",high,other
+29,24,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",in,other
+29,25,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",fiber,other
+29,26,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",.,other
+30,1,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",A,other
+30,2,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",:,other
+30,3,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",You,other
+30,4,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",could,other
+30,5,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",consider,other
+30,6,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",including,other
+30,7,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",more,other
+30,8,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",legumes,Subject
+30,9,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",",",other
+30,10,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",like,Subject
+30,11,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",lentils,Subject
+30,12,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",and,Subject
+30,13,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",chickpeas,Subject
+30,14,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",",",other
+30,15,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",which,other
+30,16,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",are,Predicate
+30,17,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",common,Object
+30,18,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",in,Object
+30,19,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",Moroccan,Object
+30,20,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",cuisine,Object
+30,21,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",and,other
+30,22,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",are,other
+30,23,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",high,other
+30,24,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",in,other
+30,25,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",fiber,other
+30,26,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",.,other
+31,1,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",A,other
+31,2,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",:,other
+31,3,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",You,other
+31,4,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",could,other
+31,5,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",consider,other
+31,6,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",including,other
+31,7,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",more,other
+31,8,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",legumes,Subject
+31,9,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",",",other
+31,10,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",like,Subject
+31,11,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",lentils,Subject
+31,12,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",and,Subject
+31,13,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",chickpeas,Subject
+31,14,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",",",other
+31,15,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",which,other
+31,16,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",are,other
+31,17,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",common,other
+31,18,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",in,other
+31,19,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",Moroccan,other
+31,20,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",cuisine,other
+31,21,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",and,other
+31,22,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",are,Predicate
+31,23,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",high,Object
+31,24,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",in,Object
+31,25,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",fiber,Object
+31,26,"A : You could consider including more legumes , like lentils and chickpeas , which are common in Moroccan cuisine and are high in fiber .",.,other
+32,1,"Whole grains , like couscous and bulgur , are also good options .",Whole,Subject
+32,2,"Whole grains , like couscous and bulgur , are also good options .",grains,Subject
+32,3,"Whole grains , like couscous and bulgur , are also good options .",",",other
+32,4,"Whole grains , like couscous and bulgur , are also good options .",like,Subject
+32,5,"Whole grains , like couscous and bulgur , are also good options .",couscous,Subject
+32,6,"Whole grains , like couscous and bulgur , are also good options .",and,Subject
+32,7,"Whole grains , like couscous and bulgur , are also good options .",bulgur,Subject
+32,8,"Whole grains , like couscous and bulgur , are also good options .",",",other
+32,9,"Whole grains , like couscous and bulgur , are also good options .",are,Predicate
+32,10,"Whole grains , like couscous and bulgur , are also good options .",also,other
+32,11,"Whole grains , like couscous and bulgur , are also good options .",good,Object
+32,12,"Whole grains , like couscous and bulgur , are also good options .",options,Object
+32,13,"Whole grains , like couscous and bulgur , are also good options .",.,other
+33,1,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",Fruits,Subject
+33,2,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",and,other
+33,3,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",vegetables,other
+33,4,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",provide,Predicate
+33,5,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",fiber,Object
+33,6,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",as,other
+33,7,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",well,other
+33,8,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",",",other
+33,9,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",so,other
+33,10,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",consider,other
+33,11,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",adding,other
+33,12,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",more,other
+33,13,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",of,other
+33,14,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",those,other
+33,15,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",to,other
+33,16,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",your,other
+33,17,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",meals,other
+33,18,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",too,other
+33,19,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",.,other
+34,1,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",Fruits,other
+34,2,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",and,other
+34,3,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",vegetables,Subject
+34,4,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",provide,Predicate
+34,5,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",fiber,Object
+34,6,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",as,other
+34,7,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",well,other
+34,8,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",",",other
+34,9,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",so,other
+34,10,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",consider,other
+34,11,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",adding,other
+34,12,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",more,other
+34,13,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",of,other
+34,14,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",those,other
+34,15,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",to,other
+34,16,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",your,other
+34,17,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",meals,other
+34,18,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",too,other
+34,19,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",.,other
+35,1,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",Fruits,other
+35,2,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",and,other
+35,3,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",vegetables,other
+35,4,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",provide,other
+35,5,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",fiber,other
+35,6,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",as,other
+35,7,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",well,other
+35,8,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",",",other
+35,9,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",so,other
+35,10,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",consider,Predicate
+35,11,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",adding,Predicate
+35,12,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",more,Object
+35,13,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",of,Object
+35,14,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",those,Object
+35,15,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",to,Object
+35,16,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",your,Object
+35,17,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",meals,Object
+35,18,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",too,Object
+35,19,"Fruits and vegetables provide fiber as well , so consider adding more of those to your meals too .",.,other
+36,1,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",P,other
+36,2,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",:,other
+36,3,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",Lentils,Subject
+36,4,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",and,other
+36,5,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",couscous,other
+36,6,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",are,Predicate
+36,7,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",staples,Object
+36,8,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",in,Object
+36,9,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",our,Object
+36,10,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",kitchen,Object
+36,11,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",",",other
+36,12,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",so,other
+36,13,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",I,other
+36,14,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",will,other
+36,15,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",try,other
+36,16,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",to,other
+36,17,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",use,other
+36,18,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",them,other
+36,19,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",more,other
+36,20,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",.,other
+37,1,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",P,other
+37,2,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",:,other
+37,3,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",Lentils,other
+37,4,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",and,other
+37,5,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",couscous,Subject
+37,6,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",are,Predicate
+37,7,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",staples,Object
+37,8,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",in,Object
+37,9,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",our,Object
+37,10,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",kitchen,Object
+37,11,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",",",other
+37,12,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",so,other
+37,13,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",I,other
+37,14,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",will,other
+37,15,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",try,other
+37,16,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",to,other
+37,17,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",use,other
+37,18,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",them,other
+37,19,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",more,other
+37,20,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",.,other
+38,1,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",P,other
+38,2,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",:,other
+38,3,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",Lentils,other
+38,4,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",and,other
+38,5,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",couscous,other
+38,6,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",are,other
+38,7,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",staples,other
+38,8,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",in,other
+38,9,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",our,other
+38,10,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",kitchen,other
+38,11,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",",",other
+38,12,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",so,other
+38,13,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",I,Subject
+38,14,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",will,Predicate
+38,15,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",try,Predicate
+38,16,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",to,Predicate
+38,17,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",use,Predicate
+38,18,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",them,Object
+38,19,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",more,Object
+38,20,"P : Lentils and couscous are staples in our kitchen , so I will try to use them more .",.,other
+39,1,What about during Ramadan when we fast ?,What,other
+39,2,What about during Ramadan when we fast ?,about,other
+39,3,What about during Ramadan when we fast ?,during,other
+39,4,What about during Ramadan when we fast ?,Ramadan,other
+39,5,What about during Ramadan when we fast ?,when,other
+39,6,What about during Ramadan when we fast ?,we,other
+39,7,What about during Ramadan when we fast ?,fast,other
+39,8,What about during Ramadan when we fast ?,?,other
+40,1,How do I maintain a balanced diet then ?,How,other
+40,2,How do I maintain a balanced diet then ?,do,other
+40,3,How do I maintain a balanced diet then ?,I,other
+40,4,How do I maintain a balanced diet then ?,maintain,other
+40,5,How do I maintain a balanced diet then ?,a,other
+40,6,How do I maintain a balanced diet then ?,balanced,other
+40,7,How do I maintain a balanced diet then ?,diet,other
+40,8,How do I maintain a balanced diet then ?,then,other
+40,9,How do I maintain a balanced diet then ?,?,other
+41,1,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",A,other
+41,2,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",:,other
+41,3,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",Fasting,Subject
+41,4,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",during,Subject
+41,5,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",Ramadan,Subject
+41,6,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",can,Predicate
+41,7,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",indeed,other
+41,8,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",be,Predicate
+41,9,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",a,Object
+41,10,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",challenge,Object
+41,11,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",",",other
+41,12,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",Abdullah,other
+41,13,"A : Fasting during Ramadan can indeed be a challenge , Abdullah .",.,other
+42,1,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,Try,Predicate
+42,2,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,to,Predicate
+42,3,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,focus,Predicate
+42,4,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,on,Predicate
+42,5,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,slow-release,Object
+42,6,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,carbohydrates,Object
+42,7,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,and,Object
+42,8,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,protein-rich,Object
+42,9,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,foods,Object
+42,10,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,during,Object
+42,11,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,Suhoor,Object
+42,12,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,to,other
+42,13,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,keep,other
+42,14,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,your,other
+42,15,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,blood,other
+42,16,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,sugar,other
+42,17,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,stable,other
+42,18,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,throughout,other
+42,19,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,the,other
+42,20,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,day,other
+42,21,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,.,other
+43,1,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,Try,other
+43,2,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,to,other
+43,3,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,focus,other
+43,4,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,on,other
+43,5,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,slow-release,Subject
+43,6,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,carbohydrates,Subject
+43,7,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,and,Subject
+43,8,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,protein-rich,Subject
+43,9,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,foods,Subject
+43,10,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,during,other
+43,11,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,Suhoor,other
+43,12,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,to,other
+43,13,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,keep,Predicate
+43,14,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,your,Object
+43,15,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,blood,Object
+43,16,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,sugar,Object
+43,17,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,stable,Object
+43,18,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,throughout,Object
+43,19,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,the,Object
+43,20,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,day,Object
+43,21,Try to focus on slow-release carbohydrates and protein-rich foods during Suhoor to keep your blood sugar stable throughout the day .,.,other
+44,1,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",For,other
+44,2,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",Iftar,other
+44,3,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",",",other
+44,4,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",start,Predicate
+44,5,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",with,Predicate
+44,6,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",dates,Object
+44,7,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",as,other
+44,8,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",they,Subject
+44,9,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",are,Predicate
+44,10,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",a,Object
+44,11,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",good,Object
+44,12,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",source,Object
+44,13,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",of,Object
+44,14,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",natural,Object
+44,15,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",sugars,Object
+44,16,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",",",other
+44,17,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",then,other
+44,18,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",have,Predicate
+44,19,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",a,Object
+44,20,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",balanced,Object
+44,21,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",meal,Object
+44,22,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",with,Object
+44,23,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",a,Object
+44,24,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",mix,Object
+44,25,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",of,Object
+44,26,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",carbohydrates,Object
+44,27,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",",",other
+44,28,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",proteins,Object
+44,29,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",",",other
+44,30,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",and,Object
+44,31,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",healthy,Object
+44,32,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",fats,Object
+44,33,"For Iftar , start with dates as they are a good source of natural sugars , then have a balanced meal with a mix of carbohydrates , proteins , and healthy fats .",.,other
+45,1,"P : Yes , dates are a traditional food to break the fast .",P,other
+45,2,"P : Yes , dates are a traditional food to break the fast .",:,other
+45,3,"P : Yes , dates are a traditional food to break the fast .",Yes,other
+45,4,"P : Yes , dates are a traditional food to break the fast .",",",other
+45,5,"P : Yes , dates are a traditional food to break the fast .",dates,Subject
+45,6,"P : Yes , dates are a traditional food to break the fast .",are,Predicate
+45,7,"P : Yes , dates are a traditional food to break the fast .",a,Object
+45,8,"P : Yes , dates are a traditional food to break the fast .",traditional,Object
+45,9,"P : Yes , dates are a traditional food to break the fast .",food,Object
+45,10,"P : Yes , dates are a traditional food to break the fast .",to,Object
+45,11,"P : Yes , dates are a traditional food to break the fast .",break,Object
+45,12,"P : Yes , dates are a traditional food to break the fast .",the,Object
+45,13,"P : Yes , dates are a traditional food to break the fast .",fast,Object
+45,14,"P : Yes , dates are a traditional food to break the fast .",.,other
+46,1,I guess I need to plan my meals more carefully during Ramadan .,I,other
+46,2,I guess I need to plan my meals more carefully during Ramadan .,guess,other
+46,3,I guess I need to plan my meals more carefully during Ramadan .,I,Subject
+46,4,I guess I need to plan my meals more carefully during Ramadan .,need,Predicate
+46,5,I guess I need to plan my meals more carefully during Ramadan .,to,Predicate
+46,6,I guess I need to plan my meals more carefully during Ramadan .,plan,Predicate
+46,7,I guess I need to plan my meals more carefully during Ramadan .,my,Object
+46,8,I guess I need to plan my meals more carefully during Ramadan .,meals,Object
+46,9,I guess I need to plan my meals more carefully during Ramadan .,more,Object
+46,10,I guess I need to plan my meals more carefully during Ramadan .,carefully,Object
+46,11,I guess I need to plan my meals more carefully during Ramadan .,during,Object
+46,12,I guess I need to plan my meals more carefully during Ramadan .,Ramadan,Object
+46,13,I guess I need to plan my meals more carefully during Ramadan .,.,other
+47,1,Thank you for your advice .,Thank,other
+47,2,Thank you for your advice .,you,other
+47,3,Thank you for your advice .,for,other
+47,4,Thank you for your advice .,your,other
+47,5,Thank you for your advice .,advice,other
+47,6,Thank you for your advice .,.,other
+48,1,"A : You are welcome , Abdullah !",A,other
+48,2,"A : You are welcome , Abdullah !",:,other
+48,3,"A : You are welcome , Abdullah !",You,other
+48,4,"A : You are welcome , Abdullah !",are,other
+48,5,"A : You are welcome , Abdullah !",welcome,other
+48,6,"A : You are welcome , Abdullah !",",",other
+48,7,"A : You are welcome , Abdullah !",Abdullah,other
+48,8,"A : You are welcome , Abdullah !",!,other
+49,1,"Remember , it is all about balance and moderation .",Remember,other
+49,2,"Remember , it is all about balance and moderation .",",",other
+49,3,"Remember , it is all about balance and moderation .",it,other
+49,4,"Remember , it is all about balance and moderation .",is,other
+49,5,"Remember , it is all about balance and moderation .",all,other
+49,6,"Remember , it is all about balance and moderation .",about,other
+49,7,"Remember , it is all about balance and moderation .",balance,other
+49,8,"Remember , it is all about balance and moderation .",and,other
+49,9,"Remember , it is all about balance and moderation .",moderation,other
+49,10,"Remember , it is all about balance and moderation .",.,other
+50,1,P : I am having a hard time managing my sugar levels during Ramadan .,P,other
+50,2,P : I am having a hard time managing my sugar levels during Ramadan .,:,other
+50,3,P : I am having a hard time managing my sugar levels during Ramadan .,I,Subject
+50,4,P : I am having a hard time managing my sugar levels during Ramadan .,am,Predicate
+50,5,P : I am having a hard time managing my sugar levels during Ramadan .,having,Predicate
+50,6,P : I am having a hard time managing my sugar levels during Ramadan .,a,Object
+50,7,P : I am having a hard time managing my sugar levels during Ramadan .,hard,Object
+50,8,P : I am having a hard time managing my sugar levels during Ramadan .,time,Object
+50,9,P : I am having a hard time managing my sugar levels during Ramadan .,managing,Object
+50,10,P : I am having a hard time managing my sugar levels during Ramadan .,my,Object
+50,11,P : I am having a hard time managing my sugar levels during Ramadan .,sugar,Object
+50,12,P : I am having a hard time managing my sugar levels during Ramadan .,levels,Object
+50,13,P : I am having a hard time managing my sugar levels during Ramadan .,during,Object
+50,14,P : I am having a hard time managing my sugar levels during Ramadan .,Ramadan,Object
+50,15,P : I am having a hard time managing my sugar levels during Ramadan .,.,other
+51,1,Any advice on how I can handle this ?,Any,other
+51,2,Any advice on how I can handle this ?,advice,other
+51,3,Any advice on how I can handle this ?,on,other
+51,4,Any advice on how I can handle this ?,how,other
+51,5,Any advice on how I can handle this ?,I,other
+51,6,Any advice on how I can handle this ?,can,other
+51,7,Any advice on how I can handle this ?,handle,other
+51,8,Any advice on how I can handle this ?,this,other
+51,9,Any advice on how I can handle this ?,?,other
+52,1,"A : Absolutely , Abdullah .",A,other
+52,2,"A : Absolutely , Abdullah .",:,other
+52,3,"A : Absolutely , Abdullah .",Absolutely,other
+52,4,"A : Absolutely , Abdullah .",",",other
+52,5,"A : Absolutely , Abdullah .",Abdullah,other
+52,6,"A : Absolutely , Abdullah .",.,other
+53,1,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",It,other
+53,2,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",is,Predicate
+53,3,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",crucial,Object
+53,4,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",to,Subject
+53,5,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",have,Subject
+53,6,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",a,Subject
+53,7,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",balanced,Subject
+53,8,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",meal,Subject
+53,9,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",at,Subject
+53,10,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",Suhoor,Subject
+53,11,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",that,Subject
+53,12,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",includes,Subject
+53,13,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",complex,Subject
+53,14,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",carbs,Subject
+53,15,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",",",other
+53,16,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",fiber,Subject
+53,17,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",",",other
+53,18,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",protein,Subject
+53,19,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",and,Subject
+53,20,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",healthy,Subject
+53,21,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",fats,Subject
+53,22,"It is crucial to have a balanced meal at Suhoor that includes complex carbs , fiber , protein and healthy fats .",.,other
+54,1,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,This,Subject
+54,2,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,could,Predicate
+54,3,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,help,Predicate
+54,4,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,sustain,Predicate
+54,5,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,you,Object
+54,6,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,throughout,Object
+54,7,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,the,Object
+54,8,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,fasting,Object
+54,9,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,period,Object
+54,10,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,and,other
+54,11,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,reduce,other
+54,12,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,blood,other
+54,13,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,sugar,other
+54,14,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,fluctuations,other
+54,15,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,.,other
+55,1,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,This,Subject
+55,2,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,could,Predicate
+55,3,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,help,Predicate
+55,4,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,sustain,other
+55,5,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,you,other
+55,6,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,throughout,other
+55,7,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,the,other
+55,8,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,fasting,other
+55,9,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,period,other
+55,10,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,and,other
+55,11,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,reduce,Predicate
+55,12,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,blood,Object
+55,13,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,sugar,Object
+55,14,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,fluctuations,Object
+55,15,This could help sustain you throughout the fasting period and reduce blood sugar fluctuations .,.,other
+56,1,P : That makes sense .,P,other
+56,2,P : That makes sense .,:,other
+56,3,P : That makes sense .,That,other
+56,4,P : That makes sense .,makes,other
+56,5,P : That makes sense .,sense,other
+56,6,P : That makes sense .,.,other
+57,1,What about Iftar meals ?,What,other
+57,2,What about Iftar meals ?,about,other
+57,3,What about Iftar meals ?,Iftar,other
+57,4,What about Iftar meals ?,meals,other
+57,5,What about Iftar meals ?,?,other
+58,1,What should I be considering ?,What,other
+58,2,What should I be considering ?,should,other
+58,3,What should I be considering ?,I,other
+58,4,What should I be considering ?,be,other
+58,5,What should I be considering ?,considering,other
+58,6,What should I be considering ?,?,other
+59,1,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",A,other
+59,2,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",:,other
+59,3,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",When,other
+59,4,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",breaking,other
+59,5,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",your,other
+59,6,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",fast,other
+59,7,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",at,other
+59,8,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",Iftar,other
+59,9,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",",",other
+59,10,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",it,other
+59,11,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",is,Predicate
+59,12,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",essential,Object
+59,13,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",to,Subject
+59,14,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",begin,Subject
+59,15,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",with,Subject
+59,16,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",something,Subject
+59,17,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",light,Subject
+59,18,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",like,Subject
+59,19,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",water,Subject
+59,20,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",and,Subject
+59,21,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",dates,Subject
+59,22,"A : When breaking your fast at Iftar , it is essential to begin with something light like water and dates .",.,other
+60,1,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",Then,other
+60,2,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",",",other
+60,3,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",have,Predicate
+60,4,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",a,Object
+60,5,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",balanced,Object
+60,6,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",meal,Object
+60,7,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",including,Object
+60,8,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",a,Object
+60,9,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",source,Object
+60,10,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",of,Object
+60,11,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",protein,Object
+60,12,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",",",other
+60,13,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",vegetables,Object
+60,14,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",and,Object
+60,15,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",small,Object
+60,16,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",portion,Object
+60,17,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",of,Object
+60,18,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",carbs,Object
+60,19,"Then , have a balanced meal including a source of protein , vegetables and small portion of carbs .",.,other
+61,1,Avoid sugary drinks or desserts which could spike your blood sugar levels .,Avoid,Predicate
+61,2,Avoid sugary drinks or desserts which could spike your blood sugar levels .,sugary,Object
+61,3,Avoid sugary drinks or desserts which could spike your blood sugar levels .,drinks,Object
+61,4,Avoid sugary drinks or desserts which could spike your blood sugar levels .,or,Object
+61,5,Avoid sugary drinks or desserts which could spike your blood sugar levels .,desserts,Object
+61,6,Avoid sugary drinks or desserts which could spike your blood sugar levels .,which,Object
+61,7,Avoid sugary drinks or desserts which could spike your blood sugar levels .,could,Object
+61,8,Avoid sugary drinks or desserts which could spike your blood sugar levels .,spike,Object
+61,9,Avoid sugary drinks or desserts which could spike your blood sugar levels .,your,Object
+61,10,Avoid sugary drinks or desserts which could spike your blood sugar levels .,blood,Object
+61,11,Avoid sugary drinks or desserts which could spike your blood sugar levels .,sugar,Object
+61,12,Avoid sugary drinks or desserts which could spike your blood sugar levels .,levels,Object
+61,13,Avoid sugary drinks or desserts which could spike your blood sugar levels .,.,other
+62,1,P : And what should I do if I feel weak or dizzy during the fasting period ?,P,other
+62,2,P : And what should I do if I feel weak or dizzy during the fasting period ?,:,other
+62,3,P : And what should I do if I feel weak or dizzy during the fasting period ?,And,other
+62,4,P : And what should I do if I feel weak or dizzy during the fasting period ?,what,other
+62,5,P : And what should I do if I feel weak or dizzy during the fasting period ?,should,other
+62,6,P : And what should I do if I feel weak or dizzy during the fasting period ?,I,other
+62,7,P : And what should I do if I feel weak or dizzy during the fasting period ?,do,other
+62,8,P : And what should I do if I feel weak or dizzy during the fasting period ?,if,other
+62,9,P : And what should I do if I feel weak or dizzy during the fasting period ?,I,other
+62,10,P : And what should I do if I feel weak or dizzy during the fasting period ?,feel,other
+62,11,P : And what should I do if I feel weak or dizzy during the fasting period ?,weak,other
+62,12,P : And what should I do if I feel weak or dizzy during the fasting period ?,or,other
+62,13,P : And what should I do if I feel weak or dizzy during the fasting period ?,dizzy,other
+62,14,P : And what should I do if I feel weak or dizzy during the fasting period ?,during,other
+62,15,P : And what should I do if I feel weak or dizzy during the fasting period ?,the,other
+62,16,P : And what should I do if I feel weak or dizzy during the fasting period ?,fasting,other
+62,17,P : And what should I do if I feel weak or dizzy during the fasting period ?,period,other
+62,18,P : And what should I do if I feel weak or dizzy during the fasting period ?,?,other
+63,1,"A : If you feel weak or dizzy , it could be due to low blood sugar .",A,other
+63,2,"A : If you feel weak or dizzy , it could be due to low blood sugar .",:,other
+63,3,"A : If you feel weak or dizzy , it could be due to low blood sugar .",If,Object
+63,4,"A : If you feel weak or dizzy , it could be due to low blood sugar .",you,Object
+63,5,"A : If you feel weak or dizzy , it could be due to low blood sugar .",feel,Object
+63,6,"A : If you feel weak or dizzy , it could be due to low blood sugar .",weak,Object
+63,7,"A : If you feel weak or dizzy , it could be due to low blood sugar .",or,Object
+63,8,"A : If you feel weak or dizzy , it could be due to low blood sugar .",dizzy,Object
+63,9,"A : If you feel weak or dizzy , it could be due to low blood sugar .",",",other
+63,10,"A : If you feel weak or dizzy , it could be due to low blood sugar .",it,Subject
+63,11,"A : If you feel weak or dizzy , it could be due to low blood sugar .",could,Predicate
+63,12,"A : If you feel weak or dizzy , it could be due to low blood sugar .",be,Predicate
+63,13,"A : If you feel weak or dizzy , it could be due to low blood sugar .",due,Predicate
+63,14,"A : If you feel weak or dizzy , it could be due to low blood sugar .",to,Predicate
+63,15,"A : If you feel weak or dizzy , it could be due to low blood sugar .",low,Object
+63,16,"A : If you feel weak or dizzy , it could be due to low blood sugar .",blood,Object
+63,17,"A : If you feel weak or dizzy , it could be due to low blood sugar .",sugar,Object
+63,18,"A : If you feel weak or dizzy , it could be due to low blood sugar .",.,other
+64,1,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",It,other
+64,2,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",is,Predicate
+64,3,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",important,Object
+64,4,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",to,Subject
+64,5,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",break,Subject
+64,6,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",your,Subject
+64,7,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",fast,Subject
+64,8,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",immediately,Subject
+64,9,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",in,Subject
+64,10,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",such,Subject
+64,11,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",cases,Subject
+64,12,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",",",other
+64,13,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",and,other
+64,14,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",have,Predicate
+64,15,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",a,Object
+64,16,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",quick,Object
+64,17,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",source,Object
+64,18,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",of,Object
+64,19,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",sugar,Object
+64,20,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",like,Object
+64,21,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",a,Object
+64,22,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",piece,Object
+64,23,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",of,Object
+64,24,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",fruit,Object
+64,25,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",or,Object
+64,26,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",a,Object
+64,27,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",glass,Object
+64,28,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",of,Object
+64,29,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",milk,Object
+64,30,"It is important to break your fast immediately in such cases , and have a quick source of sugar like a piece of fruit or a glass of milk .",.,other
+65,1,"Then , check your blood sugar levels to ensure they are back to normal .",Then,other
+65,2,"Then , check your blood sugar levels to ensure they are back to normal .",",",other
+65,3,"Then , check your blood sugar levels to ensure they are back to normal .",check,Predicate
+65,4,"Then , check your blood sugar levels to ensure they are back to normal .",your,Object
+65,5,"Then , check your blood sugar levels to ensure they are back to normal .",blood,Object
+65,6,"Then , check your blood sugar levels to ensure they are back to normal .",sugar,Object
+65,7,"Then , check your blood sugar levels to ensure they are back to normal .",levels,Object
+65,8,"Then , check your blood sugar levels to ensure they are back to normal .",to,Object
+65,9,"Then , check your blood sugar levels to ensure they are back to normal .",ensure,Object
+65,10,"Then , check your blood sugar levels to ensure they are back to normal .",they,Object
+65,11,"Then , check your blood sugar levels to ensure they are back to normal .",are,Object
+65,12,"Then , check your blood sugar levels to ensure they are back to normal .",back,Object
+65,13,"Then , check your blood sugar levels to ensure they are back to normal .",to,Object
+65,14,"Then , check your blood sugar levels to ensure they are back to normal .",normal,Object
+65,15,"Then , check your blood sugar levels to ensure they are back to normal .",.,other
+66,1,P : Thank you for the advice .,P,other
+66,2,P : Thank you for the advice .,:,other
+66,3,P : Thank you for the advice .,Thank,other
+66,4,P : Thank you for the advice .,you,other
+66,5,P : Thank you for the advice .,for,other
+66,6,P : Thank you for the advice .,the,other
+66,7,P : Thank you for the advice .,advice,other
+66,8,P : Thank you for the advice .,.,other
+67,1,I will surely consider these tips for the upcoming fasting period .,I,Subject
+67,2,I will surely consider these tips for the upcoming fasting period .,will,Predicate
+67,3,I will surely consider these tips for the upcoming fasting period .,surely,Predicate
+67,4,I will surely consider these tips for the upcoming fasting period .,consider,Predicate
+67,5,I will surely consider these tips for the upcoming fasting period .,these,Object
+67,6,I will surely consider these tips for the upcoming fasting period .,tips,Object
+67,7,I will surely consider these tips for the upcoming fasting period .,for,Object
+67,8,I will surely consider these tips for the upcoming fasting period .,the,Object
+67,9,I will surely consider these tips for the upcoming fasting period .,upcoming,Object
+67,10,I will surely consider these tips for the upcoming fasting period .,fasting,Object
+67,11,I will surely consider these tips for the upcoming fasting period .,period,Object
+67,12,I will surely consider these tips for the upcoming fasting period .,.,other
+68,1,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",A,other
+68,2,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",:,other
+68,3,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",Aicha,other
+68,4,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",",",other
+68,5,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",I,other
+68,6,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",have,other
+68,7,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",noticed,other
+68,8,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",that,other
+68,9,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",you,Subject
+68,10,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",have,Predicate
+68,11,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",been,Predicate
+68,12,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",making,Predicate
+68,13,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",significant,Object
+68,14,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",efforts,Object
+68,15,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",to,Object
+68,16,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",manage,Object
+68,17,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",your,Object
+68,18,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",diet,Object
+68,19,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",and,Object
+68,20,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",quit,Object
+68,21,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",smoking,Object
+68,22,"A : Aicha , I have noticed that you have been making significant efforts to manage your diet and quit smoking .",.,other
+69,1,This is commendable !,This,other
+69,2,This is commendable !,is,other
+69,3,This is commendable !,commendable,other
+69,4,This is commendable !,!,other
+70,1,Can you share how these changes have been affecting your daily life ?,Can,other
+70,2,Can you share how these changes have been affecting your daily life ?,you,other
+70,3,Can you share how these changes have been affecting your daily life ?,share,other
+70,4,Can you share how these changes have been affecting your daily life ?,how,other
+70,5,Can you share how these changes have been affecting your daily life ?,these,other
+70,6,Can you share how these changes have been affecting your daily life ?,changes,other
+70,7,Can you share how these changes have been affecting your daily life ?,have,other
+70,8,Can you share how these changes have been affecting your daily life ?,been,other
+70,9,Can you share how these changes have been affecting your daily life ?,affecting,other
+70,10,Can you share how these changes have been affecting your daily life ?,your,other
+70,11,Can you share how these changes have been affecting your daily life ?,daily,other
+70,12,Can you share how these changes have been affecting your daily life ?,life,other
+70,13,Can you share how these changes have been affecting your daily life ?,?,other
+71,1,"P : I have to be honest , giving up smoking has been challenging .",P,other
+71,2,"P : I have to be honest , giving up smoking has been challenging .",:,other
+71,3,"P : I have to be honest , giving up smoking has been challenging .",I,other
+71,4,"P : I have to be honest , giving up smoking has been challenging .",have,other
+71,5,"P : I have to be honest , giving up smoking has been challenging .",to,other
+71,6,"P : I have to be honest , giving up smoking has been challenging .",be,other
+71,7,"P : I have to be honest , giving up smoking has been challenging .",honest,other
+71,8,"P : I have to be honest , giving up smoking has been challenging .",",",other
+71,9,"P : I have to be honest , giving up smoking has been challenging .",giving,Subject
+71,10,"P : I have to be honest , giving up smoking has been challenging .",up,Subject
+71,11,"P : I have to be honest , giving up smoking has been challenging .",smoking,Subject
+71,12,"P : I have to be honest , giving up smoking has been challenging .",has,Predicate
+71,13,"P : I have to be honest , giving up smoking has been challenging .",been,Predicate
+71,14,"P : I have to be honest , giving up smoking has been challenging .",challenging,Predicate
+71,15,"P : I have to be honest , giving up smoking has been challenging .",.,other
+72,1,I have smoked for the best part of my life and it is been my way to cope with stress .,I,Subject
+72,2,I have smoked for the best part of my life and it is been my way to cope with stress .,have,Predicate
+72,3,I have smoked for the best part of my life and it is been my way to cope with stress .,smoked,Predicate
+72,4,I have smoked for the best part of my life and it is been my way to cope with stress .,for,Object
+72,5,I have smoked for the best part of my life and it is been my way to cope with stress .,the,Object
+72,6,I have smoked for the best part of my life and it is been my way to cope with stress .,best,Object
+72,7,I have smoked for the best part of my life and it is been my way to cope with stress .,part,Object
+72,8,I have smoked for the best part of my life and it is been my way to cope with stress .,of,Object
+72,9,I have smoked for the best part of my life and it is been my way to cope with stress .,my,Object
+72,10,I have smoked for the best part of my life and it is been my way to cope with stress .,life,Object
+72,11,I have smoked for the best part of my life and it is been my way to cope with stress .,and,other
+72,12,I have smoked for the best part of my life and it is been my way to cope with stress .,it,Subject
+72,13,I have smoked for the best part of my life and it is been my way to cope with stress .,is,Predicate
+72,14,I have smoked for the best part of my life and it is been my way to cope with stress .,been,Predicate
+72,15,I have smoked for the best part of my life and it is been my way to cope with stress .,my,Object
+72,16,I have smoked for the best part of my life and it is been my way to cope with stress .,way,Object
+72,17,I have smoked for the best part of my life and it is been my way to cope with stress .,to,Object
+72,18,I have smoked for the best part of my life and it is been my way to cope with stress .,cope,Object
+72,19,I have smoked for the best part of my life and it is been my way to cope with stress .,with,Object
+72,20,I have smoked for the best part of my life and it is been my way to cope with stress .,stress,Object
+72,21,I have smoked for the best part of my life and it is been my way to cope with stress .,.,other
+73,1,"A : It is understandable , Aicha .",A,other
+73,2,"A : It is understandable , Aicha .",:,other
+73,3,"A : It is understandable , Aicha .",It,other
+73,4,"A : It is understandable , Aicha .",is,other
+73,5,"A : It is understandable , Aicha .",understandable,other
+73,6,"A : It is understandable , Aicha .",",",other
+73,7,"A : It is understandable , Aicha .",Aicha,other
+73,8,"A : It is understandable , Aicha .",.,other
+74,1,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",Quitting,Subject
+74,2,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",smoking,Subject
+74,3,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",can,Predicate
+74,4,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",be,Predicate
+74,5,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",difficult,Object
+74,6,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",",",other
+74,7,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",especially,Object
+74,8,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",when,Object
+74,9,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",it,Object
+74,10,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",has,Object
+74,11,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",been,Object
+74,12,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",a,Object
+74,13,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",part,Object
+74,14,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",of,Object
+74,15,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",your,Object
+74,16,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",routine,Object
+74,17,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",for,Object
+74,18,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",a,Object
+74,19,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",long,Object
+74,20,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",time,Object
+74,21,"Quitting smoking can be difficult , especially when it has been a part of your routine for a long time .",.,other
+75,1,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",But,other
+75,2,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",remember,other
+75,3,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",",",other
+75,4,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",it,Subject
+75,5,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",is,Predicate
+75,6,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",a,Object
+75,7,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",significant,Object
+75,8,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",step,Object
+75,9,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",towards,Object
+75,10,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",improving,Object
+75,11,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",your,Object
+75,12,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",health,Object
+75,13,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",and,Object
+75,14,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",managing,Object
+75,15,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",your,Object
+75,16,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",diabetes,Object
+75,17,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",effectively,Object
+75,18,"But remember , it is a significant step towards improving your health and managing your diabetes effectively .",.,other
+76,1,You could try seeking assistance from a local stop smoking service for additional support .,You,Subject
+76,2,You could try seeking assistance from a local stop smoking service for additional support .,could,Predicate
+76,3,You could try seeking assistance from a local stop smoking service for additional support .,try,Predicate
+76,4,You could try seeking assistance from a local stop smoking service for additional support .,seeking,Predicate
+76,5,You could try seeking assistance from a local stop smoking service for additional support .,assistance,Object
+76,6,You could try seeking assistance from a local stop smoking service for additional support .,from,Object
+76,7,You could try seeking assistance from a local stop smoking service for additional support .,a,Object
+76,8,You could try seeking assistance from a local stop smoking service for additional support .,local,Object
+76,9,You could try seeking assistance from a local stop smoking service for additional support .,stop,Object
+76,10,You could try seeking assistance from a local stop smoking service for additional support .,smoking,Object
+76,11,You could try seeking assistance from a local stop smoking service for additional support .,service,Object
+76,12,You could try seeking assistance from a local stop smoking service for additional support .,for,Object
+76,13,You could try seeking assistance from a local stop smoking service for additional support .,additional,Object
+76,14,You could try seeking assistance from a local stop smoking service for additional support .,support,Object
+76,15,You could try seeking assistance from a local stop smoking service for additional support .,.,other
+77,1,P : I will think about that .,P,other
+77,2,P : I will think about that .,:,other
+77,3,P : I will think about that .,I,other
+77,4,P : I will think about that .,will,other
+77,5,P : I will think about that .,think,other
+77,6,P : I will think about that .,about,other
+77,7,P : I will think about that .,that,other
+77,8,P : I will think about that .,.,other
+78,1,"My dietary changes , thankfully , have been easier to manage .",My,Subject
+78,2,"My dietary changes , thankfully , have been easier to manage .",dietary,Subject
+78,3,"My dietary changes , thankfully , have been easier to manage .",changes,Subject
+78,4,"My dietary changes , thankfully , have been easier to manage .",",",other
+78,5,"My dietary changes , thankfully , have been easier to manage .",thankfully,other
+78,6,"My dietary changes , thankfully , have been easier to manage .",",",other
+78,7,"My dietary changes , thankfully , have been easier to manage .",have,Predicate
+78,8,"My dietary changes , thankfully , have been easier to manage .",been,Predicate
+78,9,"My dietary changes , thankfully , have been easier to manage .",easier,Object
+78,10,"My dietary changes , thankfully , have been easier to manage .",to,Object
+78,11,"My dietary changes , thankfully , have been easier to manage .",manage,Object
+78,12,"My dietary changes , thankfully , have been easier to manage .",.,other
+79,1,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",I,Subject
+79,2,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",have,Predicate
+79,3,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",swapped,Predicate
+79,4,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",sweets,Object
+79,5,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",for,Object
+79,6,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",fruits,Object
+79,7,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",",",other
+79,8,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",and,other
+79,9,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",I,Subject
+79,10,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",am,Predicate
+79,11,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",cooking,Predicate
+79,12,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",more,Object
+79,13,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",traditional,Object
+79,14,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",Moroccan,Object
+79,15,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",meals,Object
+79,16,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",with,Object
+79,17,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",whole,Object
+79,18,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",grains,Object
+79,19,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",and,Object
+79,20,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",vegetables,Object
+79,21,"I have swapped sweets for fruits , and I am cooking more traditional Moroccan meals with whole grains and vegetables .",.,other
+80,1,"A : That is excellent , Aicha !",A,other
+80,2,"A : That is excellent , Aicha !",:,other
+80,3,"A : That is excellent , Aicha !",That,other
+80,4,"A : That is excellent , Aicha !",is,other
+80,5,"A : That is excellent , Aicha !",excellent,other
+80,6,"A : That is excellent , Aicha !",",",other
+80,7,"A : That is excellent , Aicha !",Aicha,other
+80,8,"A : That is excellent , Aicha !",!,other
+81,1,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",Incorporating,Subject
+81,2,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",more,Subject
+81,3,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",fruits,Subject
+81,4,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",",",other
+81,5,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",vegetables,Subject
+81,6,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",",",other
+81,7,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",and,Subject
+81,8,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",whole,Subject
+81,9,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",grains,Subject
+81,10,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",into,Subject
+81,11,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",your,Subject
+81,12,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",diet,Subject
+81,13,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",can,Predicate
+81,14,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",really,Predicate
+81,15,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",help,Predicate
+81,16,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",control,Predicate
+81,17,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",your,Object
+81,18,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",blood,Object
+81,19,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",sugar,Object
+81,20,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",levels,Object
+81,21,"Incorporating more fruits , vegetables , and whole grains into your diet can really help control your blood sugar levels .",.,other
+82,1,Have you noticed any changes in how you feel since you started eating healthier ?,Have,other
+82,2,Have you noticed any changes in how you feel since you started eating healthier ?,you,other
+82,3,Have you noticed any changes in how you feel since you started eating healthier ?,noticed,other
+82,4,Have you noticed any changes in how you feel since you started eating healthier ?,any,other
+82,5,Have you noticed any changes in how you feel since you started eating healthier ?,changes,other
+82,6,Have you noticed any changes in how you feel since you started eating healthier ?,in,other
+82,7,Have you noticed any changes in how you feel since you started eating healthier ?,how,other
+82,8,Have you noticed any changes in how you feel since you started eating healthier ?,you,other
+82,9,Have you noticed any changes in how you feel since you started eating healthier ?,feel,other
+82,10,Have you noticed any changes in how you feel since you started eating healthier ?,since,other
+82,11,Have you noticed any changes in how you feel since you started eating healthier ?,you,other
+82,12,Have you noticed any changes in how you feel since you started eating healthier ?,started,other
+82,13,Have you noticed any changes in how you feel since you started eating healthier ?,eating,other
+82,14,Have you noticed any changes in how you feel since you started eating healthier ?,healthier,other
+82,15,Have you noticed any changes in how you feel since you started eating healthier ?,?,other
+83,1,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",P,other
+83,2,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",:,other
+83,3,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",Well,other
+83,4,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",",",other
+83,5,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",it,other
+83,6,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",is,other
+83,7,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",been,other
+83,8,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",a,other
+83,9,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",short,other
+83,10,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",time,other
+83,11,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",",",other
+83,12,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",but,other
+83,13,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",I,Subject
+83,14,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",do,Predicate
+83,15,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",feel,Predicate
+83,16,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",a,Object
+83,17,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",little,Object
+83,18,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",more,Object
+83,19,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",energetic,Object
+83,20,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",throughout,Object
+83,21,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",the,Object
+83,22,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",day,Object
+83,23,"P : Well , it is been a short time , but I do feel a little more energetic throughout the day .",.,other
+84,1,A : That is a positive sign !,A,other
+84,2,A : That is a positive sign !,:,other
+84,3,A : That is a positive sign !,That,other
+84,4,A : That is a positive sign !,is,other
+84,5,A : That is a positive sign !,a,other
+84,6,A : That is a positive sign !,positive,other
+84,7,A : That is a positive sign !,sign,other
+84,8,A : That is a positive sign !,!,other
+85,1,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,Changes,Subject
+85,2,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,in,Subject
+85,3,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,diet,Subject
+85,4,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,can,Predicate
+85,5,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,indeed,other
+85,6,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,boost,Predicate
+85,7,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,your,Object
+85,8,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,energy,Object
+85,9,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,levels,Object
+85,10,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,and,Object
+85,11,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,overall,Object
+85,12,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,wellbeing,Object
+85,13,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,in,Object
+85,14,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,addition,Object
+85,15,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,to,Object
+85,16,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,helping,Object
+85,17,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,manage,Object
+85,18,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,your,Object
+85,19,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,diabetes,Object
+85,20,Changes in diet can indeed boost your energy levels and overall wellbeing in addition to helping manage your diabetes .,.,other
+86,1,Please keep up these healthy habits and keep me updated on your progress .,Please,other
+86,2,Please keep up these healthy habits and keep me updated on your progress .,keep,other
+86,3,Please keep up these healthy habits and keep me updated on your progress .,up,other
+86,4,Please keep up these healthy habits and keep me updated on your progress .,these,other
+86,5,Please keep up these healthy habits and keep me updated on your progress .,healthy,other
+86,6,Please keep up these healthy habits and keep me updated on your progress .,habits,other
+86,7,Please keep up these healthy habits and keep me updated on your progress .,and,other
+86,8,Please keep up these healthy habits and keep me updated on your progress .,keep,other
+86,9,Please keep up these healthy habits and keep me updated on your progress .,me,other
+86,10,Please keep up these healthy habits and keep me updated on your progress .,updated,other
+86,11,Please keep up these healthy habits and keep me updated on your progress .,on,other
+86,12,Please keep up these healthy habits and keep me updated on your progress .,your,other
+86,13,Please keep up these healthy habits and keep me updated on your progress .,progress,other
+86,14,Please keep up these healthy habits and keep me updated on your progress .,.,other
+87,1,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,P,other
+87,2,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,:,other
+87,3,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,I,Subject
+87,4,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,have,Predicate
+87,5,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,had,Predicate
+87,6,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,a,Predicate
+87,7,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,challenging,Predicate
+87,8,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,time,Predicate
+87,9,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,managing,Predicate
+87,10,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,my,Object
+87,11,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,blood,Object
+87,12,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,sugar,Object
+87,13,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,levels,Object
+87,14,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,due,Object
+87,15,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,to,Object
+87,16,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,my,Object
+87,17,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,smoking,Object
+87,18,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,habit,Object
+87,19,P : I have had a challenging time managing my blood sugar levels due to my smoking habit .,.,other
+88,1,Is there a direct correlation between smoking and diabetes ?,Is,Predicate
+88,2,Is there a direct correlation between smoking and diabetes ?,there,other
+88,3,Is there a direct correlation between smoking and diabetes ?,a,Subject
+88,4,Is there a direct correlation between smoking and diabetes ?,direct,Subject
+88,5,Is there a direct correlation between smoking and diabetes ?,correlation,Subject
+88,6,Is there a direct correlation between smoking and diabetes ?,between,Object
+88,7,Is there a direct correlation between smoking and diabetes ?,smoking,Object
+88,8,Is there a direct correlation between smoking and diabetes ?,and,Object
+88,9,Is there a direct correlation between smoking and diabetes ?,diabetes,Object
+88,10,Is there a direct correlation between smoking and diabetes ?,?,other
+89,1,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",A,other
+89,2,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",:,other
+89,3,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",Yes,other
+89,4,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",",",other
+89,5,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",Aicha,other
+89,6,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",",",other
+89,7,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",smoking,Subject
+89,8,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",can,Predicate
+89,9,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",indeed,other
+89,10,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",complicate,Predicate
+89,11,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",diabetes,Object
+89,12,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",management,Object
+89,13,"A : Yes , Aicha , smoking can indeed complicate diabetes management .",.,other
+90,1,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",Nicotine,Subject
+90,2,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",",",other
+90,3,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",the,other
+90,4,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",addictive,other
+90,5,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",substance,other
+90,6,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",in,other
+90,7,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",cigarettes,other
+90,8,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",",",other
+90,9,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",can,Predicate
+90,10,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",lead,Predicate
+90,11,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",to,Predicate
+90,12,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",insulin,Object
+90,13,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",resistance,Object
+90,14,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",",",other
+90,15,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",which,other
+90,16,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",means,other
+90,17,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",your,Subject
+90,18,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",body,Subject
+90,19,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",is,Predicate
+90,20,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",not,Predicate
+90,21,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",able,Predicate
+90,22,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",to,Predicate
+90,23,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",use,Predicate
+90,24,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",insulin,Object
+90,25,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",effectively,Object
+90,26,"Nicotine , the addictive substance in cigarettes , can lead to insulin resistance , which means your body is not able to use insulin effectively .",.,other
+91,1,This can cause higher blood sugar levels .,This,Subject
+91,2,This can cause higher blood sugar levels .,can,Predicate
+91,3,This can cause higher blood sugar levels .,cause,Predicate
+91,4,This can cause higher blood sugar levels .,higher,Object
+91,5,This can cause higher blood sugar levels .,blood,Object
+91,6,This can cause higher blood sugar levels .,sugar,Object
+91,7,This can cause higher blood sugar levels .,levels,Object
+91,8,This can cause higher blood sugar levels .,.,other
+92,1,P : I see .,P,other
+92,2,P : I see .,:,other
+92,3,P : I see .,I,other
+92,4,P : I see .,see,other
+92,5,P : I see .,.,other
+93,1,That is more motivation for me to quit .,That,Subject
+93,2,That is more motivation for me to quit .,is,Predicate
+93,3,That is more motivation for me to quit .,more,Object
+93,4,That is more motivation for me to quit .,motivation,Object
+93,5,That is more motivation for me to quit .,for,Object
+93,6,That is more motivation for me to quit .,me,Object
+93,7,That is more motivation for me to quit .,to,Object
+93,8,That is more motivation for me to quit .,quit,Object
+93,9,That is more motivation for me to quit .,.,other
+94,1,"But it is tough , you know ?",But,other
+94,2,"But it is tough , you know ?",it,other
+94,3,"But it is tough , you know ?",is,other
+94,4,"But it is tough , you know ?",tough,other
+94,5,"But it is tough , you know ?",",",other
+94,6,"But it is tough , you know ?",you,other
+94,7,"But it is tough , you know ?",know,other
+94,8,"But it is tough , you know ?",?,other
+95,1,"A : Absolutely , quitting smoking is a significant challenge .",A,other
+95,2,"A : Absolutely , quitting smoking is a significant challenge .",:,other
+95,3,"A : Absolutely , quitting smoking is a significant challenge .",Absolutely,other
+95,4,"A : Absolutely , quitting smoking is a significant challenge .",",",other
+95,5,"A : Absolutely , quitting smoking is a significant challenge .",quitting,Subject
+95,6,"A : Absolutely , quitting smoking is a significant challenge .",smoking,Subject
+95,7,"A : Absolutely , quitting smoking is a significant challenge .",is,Predicate
+95,8,"A : Absolutely , quitting smoking is a significant challenge .",a,Object
+95,9,"A : Absolutely , quitting smoking is a significant challenge .",significant,Object
+95,10,"A : Absolutely , quitting smoking is a significant challenge .",challenge,Object
+95,11,"A : Absolutely , quitting smoking is a significant challenge .",.,other
+96,1,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",But,other
+96,2,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",remember,other
+96,3,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",",",other
+96,4,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",making,Subject
+96,5,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",small,Subject
+96,6,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",steps,Subject
+96,7,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",towards,Subject
+96,8,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",reducing,Subject
+96,9,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",your,Subject
+96,10,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",cigarette,Subject
+96,11,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",intake,Subject
+96,12,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",can,Predicate
+96,13,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",make,Predicate
+96,14,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",a,Object
+96,15,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",big,Object
+96,16,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",difference,Object
+96,17,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",in,Object
+96,18,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",managing,Object
+96,19,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",your,Object
+96,20,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",diabetes,Object
+96,21,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",and,Object
+96,22,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",overall,Object
+96,23,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",health,Object
+96,24,"But remember , making small steps towards reducing your cigarette intake can make a big difference in managing your diabetes and overall health .",.,other
+97,1,There are many resources and support groups that can help .,There,other
+97,2,There are many resources and support groups that can help .,are,other
+97,3,There are many resources and support groups that can help .,many,Subject
+97,4,There are many resources and support groups that can help .,resources,Subject
+97,5,There are many resources and support groups that can help .,and,other
+97,6,There are many resources and support groups that can help .,support,other
+97,7,There are many resources and support groups that can help .,groups,other
+97,8,There are many resources and support groups that can help .,that,other
+97,9,There are many resources and support groups that can help .,can,Predicate
+97,10,There are many resources and support groups that can help .,help,Object
+97,11,There are many resources and support groups that can help .,.,other
+98,1,There are many resources and support groups that can help .,There,other
+98,2,There are many resources and support groups that can help .,are,other
+98,3,There are many resources and support groups that can help .,many,other
+98,4,There are many resources and support groups that can help .,resources,other
+98,5,There are many resources and support groups that can help .,and,other
+98,6,There are many resources and support groups that can help .,support,Subject
+98,7,There are many resources and support groups that can help .,groups,Subject
+98,8,There are many resources and support groups that can help .,that,other
+98,9,There are many resources and support groups that can help .,can,Predicate
+98,10,There are many resources and support groups that can help .,help,Object
+98,11,There are many resources and support groups that can help .,.,other
+99,1,P : I am trying to use nicotine gum now .,P,other
+99,2,P : I am trying to use nicotine gum now .,:,other
+99,3,P : I am trying to use nicotine gum now .,I,Subject
+99,4,P : I am trying to use nicotine gum now .,am,Predicate
+99,5,P : I am trying to use nicotine gum now .,trying,Predicate
+99,6,P : I am trying to use nicotine gum now .,to,Predicate
+99,7,P : I am trying to use nicotine gum now .,use,Predicate
+99,8,P : I am trying to use nicotine gum now .,nicotine,Object
+99,9,P : I am trying to use nicotine gum now .,gum,Object
+99,10,P : I am trying to use nicotine gum now .,now,other
+99,11,P : I am trying to use nicotine gum now .,.,other
+100,1,Is this a good approach ?,Is,other
+100,2,Is this a good approach ?,this,other
+100,3,Is this a good approach ?,a,other
+100,4,Is this a good approach ?,good,other
+100,5,Is this a good approach ?,approach,other
+100,6,Is this a good approach ?,?,other
