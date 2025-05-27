@@ -80,7 +80,8 @@ def generate_response(reasoner_response):
 
     elif response_type == ResponseType.A:
         activity = formulate_advice(response_data['data'][1])
-        message = f"How about the activity '{activity}', {name}?"
+        message = generate(f"The user talking to you is {name}. {name} is a diabetes patient. You know a little bit about {name} to help them. Based on their preferences and current situation, you propose the activity {activity}. Explain why it helps them combat diabetes.", sentence_data['sentence'])
+        # message = f"How about the activity '{activity}', {name}?"
 
     return message
 
