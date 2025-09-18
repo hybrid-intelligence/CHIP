@@ -18,6 +18,8 @@ rm /tmp/chiptemp
 
 core_modules=($(docker run --rm -v "${PWD}":/workdir mikefarah/yq '.* | key + ":" + .' core-modules.yaml))
 
+# If setup.env does not exist, create an empty setup.env
+[ -f setup.env ] || touch setup.env
 > setup.env
 for module in ${modules[@]}; do
     name=${module%%:*}
