@@ -1,4 +1,4 @@
-requests==2.31.0
+requests==2.32.3
 Flask==3.0.3
 torch==2.5.1
 transformers==4.47.1

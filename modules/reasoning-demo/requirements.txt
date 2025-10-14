@@ -1,4 +1,4 @@
-requests==2.31.0
+requests==2.32.3
 Flask==3.0.3
 rdflib==7.0.0
 SPARQLwrapper==2.0.0
