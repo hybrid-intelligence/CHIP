@@ -236,3 +236,19 @@ The previous section should already have outlined most of the details regarding 
 ## Tests and CI
 CI is setup for the project, and will run automatically for any module that has a `tests` folder within an `app` folder, which is generally the file structure that Flask adheres to. Modules that have no such folder will not be considered for the test runner.
 
+## Citations
+We kindly request you to cite this paper if you find it valuable for your research
+```bibtex
+@article{DENHENGST2026102536,
+author = {den Hengst, Floris and Alaka, Shaad and Kamphorst, Bart A},
+doi = {https://doi.org/10.1016/j.softx.2026.102536},
+issn = {2352-7110},
+journal = {SoftwareX},
+keywords = { Artificial intelligence, Dialogue, Hybrid intelligence, Knowledge graphs,Lifestyle support},
+pages = {102536},
+title = {Collaborative hybrid intelligence platform {CHIP}: A modular architecture for developing and testing personalized lifestyle support interactions}},
+url = {https://www.sciencedirect.com/science/article/pii/S2352711026000300},
+volume = {33},
+year = {2026}
+}
+```
