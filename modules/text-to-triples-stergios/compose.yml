@@ -1,0 +1,11 @@
+services:
+  text-to-triples-stergios:
+    env_file:
+    - setup.env
+    - ./modules/text-to-triples-stergios/config.env
+    expose:
+    - 5000
+    build: ./modules/text-to-triples-stergios/.
+    volumes:
+    - ./modules/text-to-triples-stergios/app:/app
+    depends_on: []
