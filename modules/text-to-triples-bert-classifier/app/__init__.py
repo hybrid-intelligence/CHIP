@@ -6,7 +6,7 @@ import os
 
 class ServiceNameFilter(Filter):
     def filter(self, record):
-        record.service_name = "Text 2 Triple (Stergios)"
+        record.service_name = "Text 2 Triple (BERT Classifier)"
         return True
 
 def core_module_address(core_module):
