@@ -1,7 +1,10 @@
 from flask import Flask
 from logging.handlers import HTTPHandler
 from logging import Filter
+from app.util.llm_extension import LLMExtension
 import os
+
+llm = LLMExtension()
 
 
 class ServiceNameFilter(Filter):
@@ -30,5 +33,9 @@ def create_app(test=False):
 
     from app.routes import bp
     flask_app.register_blueprint(bp)
+
+    if not test:
+        flask_app.config['OPENAI_API_KEY'] = os.environ['OPENAI_API_KEY']
+        llm.init_app(flask_app)
 
     return flask_app
