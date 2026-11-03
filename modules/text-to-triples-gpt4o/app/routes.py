@@ -7,7 +7,7 @@ bp = Blueprint('main', __name__)
 
 @bp.route('/')
 def hello():
-    return 'Hello, I am the text to triples (stergios) module!'
+    return 'Hello, I am the text to triples (GPT-4o) module!'
 
 
 @bp.route('/process', methods=['POST'])

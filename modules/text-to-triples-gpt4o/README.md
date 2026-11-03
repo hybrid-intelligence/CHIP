@@ -1,7 +1,7 @@
 # This is a CHIP Module
 | Properties    |                     |
 | ------------- | -------------       |
-| **Name**      | Stergios Triple Extractor (placeholder) |
+| **Name**      | GPT-4o Triple Extractor |
 | **Type**      | Triple Extractor  |
 | **Core**      | Yes |
 | **Access URL**       | N/A |

@@ -1,0 +1,1820 @@
+
+ANNOTATION INSTRUCTIONS:
+
+Follow the instructions below to annotate the synthetic conversations with SPO (Subject-Predicate-Object) labels on a token-level:
+
+    1. Annotate with SPO-labels ONLY sentences with relevant information about diabetes management useful for enriching a Knowledge Graph.
+
+        Example Annotation:
+        - Annotate each token with 'other' in sentences like "P: I see.", or "P: I will keep that in mind.", or "P: I will try to do that.", or "A: You are welcome!", or "P: Thank you for the advice.", or "A: Do not hesitate to reach out" etc., as they do not contain any information about diabetes management.
+    
+    2. Annotate each token individually as either Subject, Predicate, or Object. Even within phrases functioning collectively as a Subject, Predicate, or Object, each token should be labeled separately to maintain the granularity required for token-level annotation.
+    3. Identify and annotate the Subject in each sentence by locating the main verb or verb phrase and determining who or what is performing the action described by the verb or verb phrase. INCLUDE any determiner that is next to the Subject.
+    4. Determine and annotate as Predicate the main verb or verb phrase that expresses the action, occurrence, or state of being of the Subject. INCLUDE any auxiliary verbs, modifiers, prepositions, and adverbs that are next to the Predicate.
+    5. Identify and annotate the Object in each sentence by identifying what or whom is directly receiving the action , or to whom, for whom, to what and for what the action affects. INCLUDE any determiner that is next to the Object.
+    6. Annotate all punctuation marks in each sentence with the label 'other'.
+    7. Annotate all initiator letters ('P' and 'A') at the beginning of each sentence with the label 'other'.
+    
+        Example Annotation: 
+        - In the sentence "A: You accurately adjusted the insulin dosage.", the annotation should be:
+        {
+            "sentence_id": 1,
+            "token_id": 1,
+            "sentence": "A: You accurately adjusted the insulin dosage.",
+            "token": "A",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 2,
+            "sentence": "A: You accurately adjusted the insulin dosage.",
+            "token": ":",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 3,
+            "sentence": "A: You accurately adjusted the insulin dosage.",
+            "token": "You",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 4,
+            "sentence": "A: You accurately adjusted the insulin dosage.",
+            "token": "accurately",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 5,
+            "sentence": "A: You accurately adjusted the insulin dosage.",
+            "token": "adjusted",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 6,
+            "sentence": "A: You accurately adjusted the insulin dosage.",
+            "token": "the",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 7,
+            "sentence": "A: You accurately adjusted the insulin dosage.",
+            "token": "insulin",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 8,
+            "sentence": "A: You accurately adjusted the insulin dosage.",
+            "token": "dosage",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 9,
+            "sentence": "A: You accurately adjusted the insulin dosage.",
+            "token": ".",
+            "spo_label": "other"
+        }
+                   
+    8. In passive voice sentences, the Subject is the receiver of the action, but you should still label it as the Subject. 
+    9. Annotate subordinate clauses functioning as Subjects or Objects.
+        
+        Example Annotation: 
+        - In the sentence "What the patient reported about their glucose levels concerned the doctor.", the annotation should be:
+        {
+            "sentence_id": 1,
+            "token_id": 1,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": "What",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 2,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": "the",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 3,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": "patient",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 4,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": "reported",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 5,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": "about",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 6,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": "their",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 7,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": "glucose",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 8,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": "levels",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 9,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": "concerned",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 10,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": "the",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 11,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": "doctor",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 12,
+            "sentence": "What the patient reported about their glucose levels concerned the doctor.",
+            "token": ".",
+            "spo_label": "other"
+        }
+
+    10. Separate components of compound Subjects or Predicates and annotate them individually.
+        Example Annotations: 
+        - In the sentence "The patient and the nurse check the blood sugar levels.", the annotation could be:
+        {
+            "sentence_id": 1,
+            "token_id": 1,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "The",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 2,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "patient",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 3,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "and",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 4,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "the",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 5,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "nurse",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 6,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "check",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 7,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "the",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 8,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "blood",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 9,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "sugar",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 10,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "levels",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 11,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": ".",
+            "spo_label": "other"
+        }
+
+        - In the same sentence, another annotation could be:
+        {
+            "sentence_id": 2,
+            "token_id": 1,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "The",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 2,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "patient",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 3,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "and",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 4,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "the",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 5,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "nurse",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 6,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "check",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 7,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "the",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 8,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "blood",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 9,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "sugar",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 10,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": "levels",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 11,
+            "sentence": "The patient and the nurse check the blood sugar levels.",
+            "token": ".",
+            "spo_label": "other"
+        }
+
+        - Likewise, when a single Subject performs multiple actions, such as in the sentence "The doctor evaluates the patient’s condition and prescribes medication.", the annotation could be:
+        {
+            "sentence_id": 1,
+            "token_id": 1,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "The",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 2,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "doctor",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 3,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "evaluates",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 4,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "the",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 5,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "patient’s",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 6,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "condition",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 7,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "and",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 8,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "prescribes",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 9,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "medication",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 10,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": ".",
+            "spo_label": "other"
+        }
+
+        - In the same sentence, another annotation could be:
+        {
+            "sentence_id": 2,
+            "token_id": 1,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "The",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 2,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "doctor",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 3,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "evaluates",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 4,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "the",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 5,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "patient’s",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 6,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "condition",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 7,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "and",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 8,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "prescribes",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 9,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": "medication",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 10,
+            "sentence": "The doctor evaluates the patient’s condition and prescribes medication.",
+            "token": ".",
+            "spo_label": "other"
+        }
+
+    11. For implied Subjects or Predicates, annotate the explicit ones twice.
+        
+        Example Annotations:
+        - In the sentence "I have been feeling quite thirsty lately and drinking much more water than usual.", the annotation could be:
+        {
+            "sentence_id": 1,
+            "token_id": 1,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "I",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 2,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "have",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 3,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "been",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 4,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "feeling",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 5,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "quite",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 6,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "thirsty",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 7,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "lately",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 8,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "and",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 9,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "drinking",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 10,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "much",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 11,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "more",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 12,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "water",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 13,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "than",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 14,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "usual",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 15,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": ".",
+            "spo_label": "other"
+        }
+        
+        - In the same sentence, another annotation could be:
+        {
+            "sentence_id": 2,
+            "token_id": 1,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "I",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 2,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "have",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 3,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "been",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 4,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "feeling",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 5,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "quite",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 6,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "thirsty",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 7,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "lately",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 8,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "and",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 9,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "drinking",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 10,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "much",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 11,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "more",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 12,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "water",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 13,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "than",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 14,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": "usual",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 15,
+            "sentence": "I have been feeling quite thirsty lately and drinking much more water than usual.",
+            "token": ".",
+            "spo_label": "other"
+        }
+
+        - In the sentence "The patient takes insulin, and the caregiver, glucose tests.", the annotation could be:
+        {
+            "sentence_id": 1,
+            "token_id": 1,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "The",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 2,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "patient",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 3,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "takes",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 4,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "insulin",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 5,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": ",",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 6,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "and",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 7,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "the",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 8,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "caregiver",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 9,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": ",",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 10,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "tests",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 11,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "glucose",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 12,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": ".",
+            "spo_label": "other"
+        }
+
+        - In the same sentence, another annotation could be:
+        {
+            "sentence_id": 2,
+            "token_id": 1,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "The",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 2,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "patient",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 3,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "takes",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 4,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "insulin",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 5,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": ",",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 6,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "and",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 7,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "the",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 8,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "caregiver",
+            "spo_label": "Subject"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 9,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": ",",
+            "spo_label": "other"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 10,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "tests",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 11,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": "glucose",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 2,
+            "token_id": 12,
+            "sentence": "The patient takes insulin, and the caregiver tests glucose.",
+            "token": ".",
+            "spo_label": "other"
+        }
+
+
+    12. If an explicit SPO component is completely absent, omit annotating that particular SPO component.
+        
+        Example Annotations:
+        - In the sentence "Include a small portion of whole grain bread.", the annotation should be:
+        {
+            "sentence_id": 1,
+            "token_id": 1,
+            "sentence": "Include a small portion of whole grain bread.",
+            "token": "Include",
+            "spo_label": "Predicate"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 2,
+            "sentence": "Include a small portion of whole grain bread.",
+            "token": "a",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 3,
+            "sentence": "Include a small portion of whole grain bread.",
+            "token": "small",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 4,
+            "sentence": "Include a small portion of whole grain bread.",
+            "token": "portion",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 5,
+            "sentence": "Include a small portion of whole grain bread.",
+            "token": "of",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 6,
+            "sentence": "Include a small portion of whole grain bread.",
+            "token": "whole",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 7,
+            "sentence": "Include a small portion of whole grain bread.",
+            "token": "grain",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 8,
+            "sentence": "Include a small portion of whole grain bread.",
+            "token": "bread",
+            "spo_label": "Object"
+        },
+        {
+            "sentence_id": 1,
+            "token_id": 9,
+            "sentence": "Include a small portion of whole grain bread.",
+            "token": ".",
+            "spo_label": "other"
+        }
+
+    13. If a sentence is a question, PLEASE SEARCH for the corresponding answer in the following or subsequent sentences, and handle the annotations based on the type of answer:
+
+        - If the answer is a simple affirmation: PLEASE ANNOTATE ONLY THE SENTENCE CONTAINING THE QUESTION, as it provides the relevant information about diabetes management that can enhance the Knowledge Graph.
+
+            Example Annotation: 
+            - If in the question "A: Have you taken your medication today?" the answer is "Yes!", ANNOTATE ONLY THE QUESTION, and the annotation should be: 
+            {
+                "sentence_id": 1,
+                "token_id": 1,
+                "sentence": "Have you taken your medication today?",
+                "token": "Have",
+                "spo_label": "Predicate"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 2,
+                "sentence": "Have you taken your medication today?",
+                "token": "you",
+                "spo_label": "Subject"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 3,
+                "sentence": "Have you taken your medication today?",
+                "token": "taken",
+                "spo_label": "Predicate"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 4,
+                "sentence": "Have you taken your medication today?",
+                "token": "your",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 5,
+                "sentence": "Have you taken your medication today?",
+                "token": "medication",
+                "spo_label": "Object"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 6,
+                "sentence": "Have you taken your medication today?",
+                "token": "today",
+                "spo_label": "Object"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 7,
+                "sentence": "Have you taken your medication today?",
+                "token": "?",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 1,
+                "sentence": "Yes!",
+                "token": "Yes",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 2,
+                "sentence": "Yes!",
+                "token": "!",
+                "spo_label": "other"
+            }
+
+        - If the answer is detailed with additional information: PLEASE ANNOTATE ONLY THE SENTENCE CONTAINING THE ANSWER, as it provides the relevant information about diabetes management that can enhance the Knowledge Graph.
+
+            Example Annotation:
+            - If in the question "What did you eat for breakfast?" the answer is "I had oatmeal with bananas.", ANNOTATE ONLY THE ANSWER, and the annotation should be:
+            {
+                "sentence_id": 1,
+                "token_id": 1,
+                "sentence": "What did you eat for breakfast?",
+                "token": "What",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 2,
+                "sentence": "What did you eat for breakfast?",
+                "token": "did",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 3,
+                "sentence": "What did you eat for breakfast?",
+                "token": "you",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 4,
+                "sentence": "What did you eat for breakfast?",
+                "token": "eat",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 5,
+                "sentence": "What did you eat for breakfast?",
+                "token": "for",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 6,
+                "sentence": "What did you eat for breakfast?",
+                "token": "breakfast",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 7,
+                "sentence": "What did you eat for breakfast?",
+                "token": "?",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 1,
+                "sentence": "I had oatmeal with bananas.",
+                "token": "I",
+                "spo_label": "Subject"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 2,
+                "sentence": "I had oatmeal with bananas.",
+                "token": "had",
+                "spo_label": "Predicate"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 3,
+                "sentence": "I had oatmeal with bananas.",
+                "token": "oatmeal",
+                "spo_label": "Object"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 4,
+                "sentence": "I had oatmeal with bananas.",
+                "token": "with",
+                "spo_label": "Object"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 5,
+                "sentence": "I had oatmeal with bananas.",
+                "token": "bananas",
+                "spo_label": "Object"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 6,
+                "sentence": "I had oatmeal with bananas.",
+                "token": ".",
+                "spo_label": "other"
+            }
+
+        - If the answer includes both a simple affirmation and additional information, PLEASE ANNOTATE BOTH THE SENTENCE CONTAINING THE QUESTION AND THE SENTENCE CONTAINING THE ANSWER SEPARATELY, as both provide relevant information about diabetes management that can enhance the Knowledge Graph.
+            
+            Example Annotation:
+            - If in the question "Should I be concerned about dehydration?" the answer is "Absolutely, the risk of dehydration can increase while fasting.", ANNOTATE BOTH THE QUESTION AND THE ANSWER SEPARATELY. 
+            {
+                "sentence_id": 1,
+                "token_id": 1,
+                "sentence": "Should I be concerned about dehydration?",
+                "token": "Should",
+                "spo_label": "Predicate"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 2,
+                "sentence": "Should I be concerned about dehydration?",
+                "token": "I",
+                "spo_label": "Subject"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 3,
+                "sentence": "Should I be concerned about dehydration?",
+                "token": "be",
+                "spo_label": "Predicate"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 4,
+                "sentence": "Should I be concerned about dehydration?",
+                "token": "concerned",
+                "spo_label": "Predicate"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 5,
+                "sentence": "Should I be concerned about dehydration?",
+                "token": "about",
+                "spo_label": "Predicate"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 6,
+                "sentence": "Should I be concerned about dehydration?",
+                "token": "dehydration",
+                "spo_label": "Object"
+            },
+            {
+                "sentence_id": 1,
+                "token_id": 7,
+                "sentence": "Should I be concerned about dehydration?",
+                "token": "?",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 1,
+                "sentence": "Absolutely, the risk of dehydration can increase while fasting.",
+                "token": "Absolutely",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 2,
+                "sentence": "Absolutely, the risk of dehydration can increase while fasting.",
+                "token": ",",
+                "spo_label": "other"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 3,
+                "sentence": "Absolutely, the risk of dehydration can increase while fasting.",
+                "token": "the",
+                "spo_label": "Subject"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 4,
+                "sentence": "Absolutely, the risk of dehydration can increase while fasting.",
+                "token": "risk",
+                "spo_label": "Subject"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 5,
+                "sentence": "Absolutely, the risk of dehydration can increase while fasting.",
+                "token": "of",
+                "spo_label": "Subject"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 6,
+                "sentence": "Absolutely, the risk of dehydration can increase while fasting.",
+                "token": "dehydration",
+                "spo_label": "Subject"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 7,
+                "sentence": "Absolutely, the risk of dehydration can increase while fasting.",
+                "token": "can",
+                "spo_label": "Predicate"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 8,
+                "sentence": "Absolutely, the risk of dehydration can increase while fasting.",
+                "token": "increase",
+                "spo_label": "Predicate"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 9,
+                "sentence": "Absolutely, the risk of dehydration can increase while fasting.",
+                "token": "while",
+                "spo_label": "Object"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 10,
+                "sentence": "Absolutely, the risk of dehydration can increase while fasting.",
+                "token": "fasting",
+                "spo_label": "Object"
+            },
+            {
+                "sentence_id": 2,
+                "token_id": 11,
+                "sentence": "Absolutely, the risk of dehydration can increase while fasting.",
+                "token": ".",
+                "spo_label": "other"
+            }
+
+    14. Ensure that punctuation and uninvolved tokens (like conjunctions and prepositions not integral to SPO components) are consistently labeled as 'other'.
+        
+
+ANNOTATION FORMAT:
+
+- Use the following JSON format to structure the annotations for each sentence in the conversation:
+
+    Each annotation entry should include:
+    - 'sentence_id': A unique identifier for each sentence.
+    - 'token_id': A unique identifier for each token within the sentence.
+    - 'sentence': The full text of the sentence being annotated.
+    - 'token': The individual word or punctuation mark being annotated.
+    - 'spo_label': The SPO (Subject, Predicate, Object, or other) label for the token, identifying its role in the relationship.
+    
+
+    Example JSON Annotation:
+    {
+    "sentence_id": 1,
+    "token_id": 1,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "The",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 1,
+    "token_id": 2,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "patient",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 1,
+    "token_id": 3,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "and",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 1,
+    "token_id": 4,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "the",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 1,
+    "token_id": 5,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "nurse",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 1,
+    "token_id": 6,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "check",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 1,
+    "token_id": 7,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "the",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 1,
+    "token_id": 8,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "blood",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 1,
+    "token_id": 9,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "sugar",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 1,
+    "token_id": 10,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "levels",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 1,
+    "token_id": 11,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": ".",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 2,
+    "token_id": 1,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "The",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 2,
+    "token_id": 2,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "patient",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 2,
+    "token_id": 3,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "and",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 2,
+    "token_id": 4,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "the",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 2,
+    "token_id": 5,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "nurse",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 2,
+    "token_id": 6,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "check",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 2,
+    "token_id": 7,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "the",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 2,
+    "token_id": 8,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "blood",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 2,
+    "token_id": 9,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "sugar",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 2,
+    "token_id": 10,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": "levels",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 2,
+    "token_id": 11,
+    "sentence": "The patient and the nurse check the blood sugar levels.",
+    "token": ".",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 1,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "P",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 2,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "":"",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 3,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "I",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 4,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "have",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 5,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "skin",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 6,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "problems",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 7,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "recently",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 8,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": ".",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 9,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "Could",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 10,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "it",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 11,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "be",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 12,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "related",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 13,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "to",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 14,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "my",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 15,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "diabetes",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 3,
+    "token_id": 16,
+    "sentence": "P: I have skin problems recently. Could it be related to my diabetes?",
+    "token": "?",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 1,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": "A",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 2,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": ":",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 3,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": "Yes",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 4,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": ",",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 5,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": "skin",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 6,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": "problems",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 7,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": "can",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 8,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": "sometimes",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 9,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": "be",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 10,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": "a",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 11,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": "sign",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 12,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": "of",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 13,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": "diabetes",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 4,
+    "token_id": 14,
+    "sentence": "A: Yes, skin problems can sometimes be a sign of diabetes.",
+    "token": ".",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 1,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": "P",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 2,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": ":",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 3,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": "Should",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 4,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": "I",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 5,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": "check",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 6,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": "my",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 7,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": "blood",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 8,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": "sugar",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 9,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": "levels",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 10,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": "more",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 11,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": "often",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 5,
+    "token_id": 12,
+    "sentence": "P: Should I check my blood sugar levels more often?",
+    "token": "?",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 6,
+    "token_id": 1,
+    "sentence": "A: Check it every morning.",
+    "token": "A",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 6,
+    "token_id": 2,
+    "sentence": "A: Check it every morning.",
+    "token": ":",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 6,
+    "token_id": 3,
+    "sentence": "A: Check it every morning.",
+    "token": "Check",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 6,
+    "token_id": 4,
+    "sentence": "A: Check it every morning.",
+    "token": "it",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 6,
+    "token_id": 5,
+    "sentence": "A: Check it every morning.",
+    "token": "every",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 6,
+    "token_id": 6,
+    "sentence": "A: Check it every morning.",
+    "token": "morning",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 6,
+    "token_id": 7,
+    "sentence": "A: Check it every morning.",
+    "token": ".",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 7,
+    "token_id": 1,
+    "sentence": "It is important to do this after your breakfast.",
+    "token": "It",
+    "spo_label": "other"
+    },
+    {
+    "sentence_id": 7,
+    "token_id": 2,
+    "sentence": "It is important to do this after your breakfast.",
+    "token": "is",
+    "spo_label": "Predicate"
+    },
+    {
+    "sentence_id": 7,
+    "token_id": 3,
+    "sentence": "It is important to do this after your breakfast.",
+    "token": "important",
+    "spo_label": "Object"
+    },
+    {
+    "sentence_id": 7,
+    "token_id": 4,
+    "sentence": "It is important to do this after your breakfast.",
+    "token": "to",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 7,
+    "token_id": 5,
+    "sentence": "It is important to do this after your breakfast.",
+    "token": "do",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 7,
+    "token_id": 6,
+    "sentence": "It is important to do this after your breakfast.",
+    "token": "this",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 7,
+    "token_id": 7,
+    "sentence": "It is important to do this after your breakfast.",
+    "token": "after",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 7,
+    "token_id": 8,
+    "sentence": "It is important to do this after your breakfast.",
+    "token": "your",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 7,
+    "token_id": 9,
+    "sentence": "It is important to do this after your breakfast.",
+    "token": "breakfast",
+    "spo_label": "Subject"
+    },
+    {
+    "sentence_id": 7,
+    "token_id": 10,
+    "sentence": "It is important to do this after your breakfast.",
+    "token": ".",
+    "spo_label": "other"
+    },
+    ...
+
+- Ensure that each token is annotated individually and accurately to maintain the integrity and usefulness of the data for future processing and analysis.
+
+    
